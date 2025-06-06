@@ -21,16 +21,6 @@ const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
 
-let lastMessage = "";
-
-client.on("messageCreate", message => {
-    if (message.author.bot) return; // Ignore les messages du bot
-    if (message.content === lastMessage) return; // Ignore les répétitions
-    lastMessage = message.content;
-    message.channel.send("Réponse du bot");
-});
-
-
 function startProject() {
 	const child = spawn("node", ["Goat.js"], {
 		cwd: __dirname,
