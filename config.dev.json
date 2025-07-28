@@ -22,8 +22,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "ʚɸɞ Mira gpt ʚɸɞ",
-  "prefix": "^",
+  "nickNameBot": "ʚɸɞ ÍTĀCHÏ ʚɸɞ",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
